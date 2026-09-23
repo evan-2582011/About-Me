@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      background: white;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #1a5d1a;
+    }
+    h1 {
+      color: #1a5d1a;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      text-align: left;
+    }
+    td {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+    }
+    td:first-child {
+      font-weight: bold;
+      width: 40%;
+      color: #1a5d1a;
+    }
+    .bio {
+      margin-top: 20px;
+      text-align: left;
+      line-height: 1.6;
+      color: #333;
+    }
+    .back {
+      display: inline-block;
+      margin-top: 25px;
+      color: #1a5d1a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Ganti src di bawah dengan file foto kamu sendiri, letakkan di folder yang sama -->
+    <img src="https://via.placeholder.com/150" alt="Foto Profil">
+    <h1>Nama Lengkap Kamu</h1>
+    <p class="subtitle">Mahasiswa | Program Studi Kamu</p>
+
+    <table>
+      <tr><td>NIM</td><td>Isi NIM kamu</td></tr>
+      <tr><td>Universitas</td><td>Isi nama kampus</td></tr>
+      <tr><td>Email</td><td>emailkamu@contoh.com</td></tr>
+      <tr><td>Hobi</td><td>Isi hobi kamu</td></tr>
+      <tr><td>Kota Asal</td><td>Isi kota asal kamu</td></tr>
+    </table>
+
+    <div class="bio">
+      <p>Tulis sedikit cerita tentang dirimu di sini — latar belakang, minat, atau tujuan belajar web programming.</p>
+    </div>
+
+    <a class="back" href="index.html">&larr; Kembali ke Home</a>
+  </div>
+</body>
+</html>
